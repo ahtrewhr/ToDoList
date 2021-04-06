@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <p class="logo">ToDoList</p>
+                    <p class="total">total task: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="content-box form-box">
+                        <h3>Add new task</h3>
+                        <form name="addTask">
+                            <input type="text" name="title" id="title" placeholder="Task title">
+                            <input type="text" name="body" id="body" placeholder="Task body">
+                            <button class="add-task" type="submit">Add task</button>
+                        </form>
+                    </div>
+                    <div class="content-box">
+                        <h3>List task</h3>
+                        <ul class="task-list">
+                            <!-- <li class="task-list__message">Список задании пуст</li> -->
+                            <!-- <li class="task-list__item">
+                                <h4 class="task-list__title">title</h4>
+                                <p class="task-list__body">kd jeofjsfojos sfjosfjosfjsdfsodjfos kdsfjsfj jeofjsfojos sfjosfjosfjsdfsodjfos</p>
+                                <div class="buttons-box">
+                                    <button class="task-list__btn edit-task">Edit task</button>
+                                    <button class="task-list__btn del-task">Delete task</button>
+                                </div>
+                            </li>
+
+                            <li class="task-list__item">
+                                <input class="changeTitleTask" type="text" value="242525" autofocus>
+                                <textarea class="changeBodyTask"></textarea>
+                                <div class="buttons-box">
+                                    <button class="task-list__btn edit-task">Edit task</button>
+                                    <button class="task-list__btn del-task">Delete task</button>
+                                </div>
+                            </li>
+
+                            <li class="task-list__item">
+                                <h4 class="task-list__title">title</h4>
+                                <p class="task-list__body">kdsfjsfj jeofjsfojos sfjosfjosfjsdfsodjfos</p>
+                                <div class="buttons-box">
+                                    <button class="task-list__btn edit-task">Edit task</button>
+                                    <button class="task-list__btn del-task">Delete task</button>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="js/app.js"></script>
+</body>
+</html>
